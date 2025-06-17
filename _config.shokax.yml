@@ -1,0 +1,41 @@
+# 站点设置
+# 网站图标
+favicon: /images/favicon.ico
+avatar: /images/avatar.jpg
+
+# 菜单配置
+menu:
+  home: / || home
+  archives: /archives/ || archives
+  categories: /categories/ || th
+  tags: /tags/ || tags
+  about: /about/ || heart
+
+# 社交链接
+social:
+  github: https://github.com/your-username || github
+  mail: mailto:your-email@example.com || envelope
+
+# 搜索配置
+search:
+  enable: true
+  type: local
+
+# 评论系统 (推荐 Waline)
+comment:
+  enable: false
+  type: waline
+  waline:
+    serverURL: '' # 你的 Waline 服务器地址
+    lang: zh-CN
+
+# 页脚配置
+footer:
+  since: 2025
+  copyright: Your Name
+
+# 首页设置
+homeConfig:
+  typing:
+    enable: true
+    text: ["欢迎来到我的博客", "Welcome to my blog"]
