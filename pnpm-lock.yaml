@@ -24,8 +24,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(chalk@4.1.2)(hexo@7.3.0(chokidar@3.6.0))
       hexo-fs:
-        specifier: ^5.0.0
-        version: 5.0.0
+        specifier: ^5.0.1
+        version: 5.0.1
       hexo-generator-archive:
         specifier: ^2.0.0
         version: 2.0.0
@@ -997,8 +997,8 @@ packages:
     resolution: {integrity: sha512-Q92zQ5PlVDouvSWFLXQoFSTLIUIODikUJs2BfAXQglyOEjN1dOQn1Z5Nimk/7GHof17R5h/uObCQLnZAjzI2tg==}
     engines: {node: '>=14'}
 
-  hexo-fs@5.0.0:
-    resolution: {integrity: sha512-oBkg1QgXyb4JxipaH+yCV/7E7XOUASTK6x1pocWvLw6U2mB6VfLENgYg61ft9Qn6JCiKSzs7FU4vyTUy6gIPvQ==}
+  hexo-fs@5.0.1:
+    resolution: {integrity: sha512-Zm4m21coQA7TtL9JL0oNZF+ypY/HbqwVdaqGqoKD+GEV7HH2Y1YObNBgl1o/lV1tzStC8f15AoRcHdS2jiWp0w==}
     engines: {node: '>=18'}
 
   hexo-generator-archive@2.0.0:
@@ -1604,7 +1604,7 @@ packages:
   puppeteer@21.11.0:
     resolution: {integrity: sha512-9jTHuYe22TD3sNxy0nEIzC7ZrlRnDgeX3xPkbS7PnbdwYjl2o/z/YuCrRBwezdKpbTDTJ4VqIggzNyeRcKq3cg==}
     engines: {node: '>=16.13.2'}
-    deprecated: < 22.8.2 is no longer supported
+    deprecated: < 24.15.0 is no longer supported
     hasBin: true
 
   qs@6.9.7:
@@ -2905,7 +2905,7 @@ snapshots:
       graceful-fs: 4.2.11
       hexo-util: 3.3.0
 
-  hexo-fs@5.0.0:
+  hexo-fs@5.0.1:
     dependencies:
       bluebird: 3.7.2
       chokidar: 4.0.3
@@ -3013,7 +3013,7 @@ snapshots:
       hexo: 7.3.0(chokidar@3.6.0)
       hexo-algoliasearch: 2.0.1
       hexo-feed: 1.1.2(chalk@4.1.2)(hexo@7.3.0(chokidar@3.6.0))
-      hexo-fs: 5.0.0
+      hexo-fs: 5.0.1
       hexo-pagination: 4.0.0
       hexo-renderer-pug: 3.0.0
       hexo-util: 3.3.0
