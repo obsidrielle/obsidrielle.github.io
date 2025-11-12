@@ -31,7 +31,7 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-shokax": "0.4.21",
     "hexo-util": "^3.3.0",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.1.1",
     "lozad": "^1.16.0",
     "theme-shokax-anime": "^0.0.8",
     "theme-shokax-pjax": "^0.0.3"
